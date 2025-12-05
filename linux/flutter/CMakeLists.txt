@@ -69,7 +69,7 @@ target_link_libraries(flutter INTERFACE
 )
 add_dependencies(flutter flutter_assemble)
 
-# === Flutter tool backend ===
+# === Flutter tool backend - java ===
 # _phony_ is a non-existent file to force this command to run every time,
 # since currently there's no way to get a full input/output list from the
 # flutter tool.
